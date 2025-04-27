@@ -14,7 +14,7 @@ beta = 1.12
 # delta -> Natural Birth rate / Natural Death Rate
 delta = 3.3 * 10**-5
 # alpha -> Recovery Rate
-alpha = 1.0 / 7.0
+alpha = 1.0 / 7.0 + 0.0366
 # gamma -> rate of vaccination (.001 -> 1) (*logspace*)
 gamma = 0.01
 #epsilon -> vaccine efficacy
